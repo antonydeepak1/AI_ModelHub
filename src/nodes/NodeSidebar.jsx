@@ -13,26 +13,10 @@ const NodeSidebar = ({ saveFlow, loadFlow }) => {
 
       <div
         draggable
-        onDragStart={(e) => onDragStart(e, 'medicalProcessor')}
-        className="bg-white text-black hover:bg-gray-200 p-3 rounded text-center shadow-lg transition-colors cursor-move"
-      >
-        Medical Processor
-      </div>
-
-      <div
-        draggable
         onDragStart={(e) => onDragStart(e, 'generate')}
         className="bg-white text-black hover:bg-gray-200 p-3 rounded text-center shadow-lg transition-colors cursor-move"
       >
         Comedy Generator
-      </div>
-
-      <div
-        draggable
-        onDragStart={(e) => onDragStart(e, 'output')}
-        className="bg-white text-black hover:bg-gray-200 p-3 rounded text-center shadow-lg transition-colors cursor-move"
-      >
-        Output Viewer
       </div>
 
       <div className="divider my-4 border-t border-gray-800"></div>
