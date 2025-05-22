@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🌟 AI-ModelHub: Your Gateway to Cutting-Edge AI Models
 
 Welcome to **AI-ModelHub**, a comprehensive collection of state-of-the-art AI models organized into four primary categories: **Generative Models**, **Audio Models**, **NLP Models**, and **Multimodal Models**. Whether you're building intelligent systems, creating audio applications, or integrating multimodal functionalities, this hub has you covered!
@@ -149,3 +150,17 @@ Contributions are welcome! Please read the [CONTRIBUTING.md](CONTRIBUTING.md) fo
 ## 🌐 Contact
 
 For any questions or suggestions, please reach out via [GitHub Issues](https://github.com/yourusername/AI-ModelHub/issues).
+=======
+# React + Vite
+
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+>>>>>>> gen-AI
