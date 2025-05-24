@@ -119,6 +119,65 @@ Welcome to **AI-ModelHub**, a comprehensive collection of state-of-the-art AI mo
 
 ---
 
+## 🧠 Vision Models
+
+Our platform integrates cutting-edge **Vision AI Models** to convert natural language descriptions into stunning visual outputs, enabling seamless creative workflows in image and video content generation.
+
+---
+
+### 🔹 `SG161222/RealVisXL_V3.0_Turbo`
+
+- **Type:** Text-to-Image  
+- **Framework:** 🤗 Hugging Face Diffusers  
+- **Description:**  
+  `RealVisXL_V3.0_Turbo` is an ultra-realistic, high-resolution text-to-image diffusion model that transforms descriptive prompts into photorealistic visuals. It captures fine details with creative consistency, making it ideal for design and media applications.
+
+- **Use Cases:**  
+  - Digital art & concept design  
+  - UI/UX visual prototyping  
+  - Educational visual storytelling  
+  - Content generation for blogs, media, and social platforms  
+
+- **Project Integration:**  
+  - **Endpoint:** `POST /generate-image`  
+  - **Input:** Prompt (e.g., `"a futuristic city skyline at night"`)  
+  - **Output:** High-quality generated image  
+
+> ✅ This feature allows designers, content creators, and educators to visually realize their ideas in seconds using natural language.
+
+---
+
+### 🔹 `damo-vilab/text-to-video-ms-1.7b`
+
+- **Type:** Text-to-Video  
+- **Framework:** 🤗 Hugging Face Diffusers + `VideoUtils`  
+- **Description:**  
+  A powerful text-to-video diffusion model that generates short, animated video clips from natural language prompts. It synthesizes realistic and coherent video sequences from textual descriptions.
+
+- **Use Cases:**  
+  - AI-generated marketing and promotional videos  
+  - Animation and media prototyping  
+  - Educational or storytelling content creation  
+  - Automated video snippets for social media  
+
+- **Project Integration:**  
+  - **Endpoint:** `POST /generate-video`  
+  - **Input:** Prompt (e.g., `"a waterfall flowing in a forest during sunrise"`)  
+  - **Output:** Short, dynamic video clip  
+
+> ✅ This model enables automated video generation from text, unlocking use cases in interactive storytelling and creative media production.
+
+---
+
+### 🌐 Benefits of Vision Model Integration
+
+- 🎨 **Creativity Amplified:** Turn ideas into visuals instantly—no design tools needed.  
+- ⚡ **Faster Prototyping:** Generate stunning visuals for apps, ads, or presentations in seconds.  
+- 💡 **Accessibility:** Empower anyone to become a visual storyteller using just natural language.
+
+---
+
+
 ## 🚀 Getting Started
 
 1. Clone the repository
